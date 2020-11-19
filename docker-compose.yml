@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  webapp:
+    build: .
+    image: marinamk/ssr_example_web:latest
+    ports:
+      - "8000:8000"
